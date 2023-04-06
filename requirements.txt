@@ -2,3 +2,4 @@ flask
 beautifulsoup4
 certifi
 urllib3
+editdistance
