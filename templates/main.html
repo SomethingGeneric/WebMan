@@ -20,5 +20,13 @@
         <div class="content">
             {% block body %}{% endblock %}
         </div>
+        <script>
+            var wage = document.getElementById("searchbar");
+            wage.addEventListener("keydown", function (e) {
+                if (e.code === "Enter") {  //checks whether the pressed key is "Enter"
+                    search();
+                }
+            });    
+        </script>
     </body>
 </html>
